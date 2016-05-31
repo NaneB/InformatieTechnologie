@@ -1,0 +1,230 @@
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    font-family: arial, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#head{
+    width: 105vw;
+    height: 420px;
+    transform: rotate(-2deg);
+    background-color: rgba(219,150,143,0.8);
+    margin: -100px 0 0 -50px;
+    font-family: bromello;
+    padding: 100px;
+    box-sizing: border-box;
+    position: relative;
+}
+#head h1{
+    font-size: 70pt;
+    display: block;
+    text-align: center;
+    color: white;
+    margin: 5px auto 25px auto;
+    width: 100%;
+    float: left;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    text-transform: capitalize;
+}
+#head p.bar{
+    position: absolute;
+    font-size: 50pt;
+    transform: rotate(-88deg); 
+    right: 180px;
+    top: 190px;
+}
+#head p{
+    position: absolute;
+    font-size: 23pt;
+    color: white;
+    right: 150px;
+    top: 170px;
+}
+#nav{
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: rgb(219,150,143);
+    opacity: 0;
+    font-family: bromello;
+    color: white;
+    box-sizing: border-box;
+    font-size: 40pt;
+    position: relative;
+}
+#nav ul{
+    margin: 200px;
+    position: absolute;
+}
+#nav ul li{
+    margin-bottom: 80px;
+}
+#nav ul li:hover{
+    text-decoration: line-through;
+}
+#nav #close{
+    position: absolute;
+    right: 90px;
+    top: 50px;
+}
+.visible{
+    height: 100vh!important;
+    width: 100vw!important;
+}
+#footer{
+    background-color: rgb(219,150,143);
+    color:white;
+    height: 50px;
+    width: 100vw;
+    position: absolute;
+    top: 3350px;
+    text-align: center;
+    padding-top: 25px;
+}
+#next{
+    font-weight: bold;
+    font-size: 14pt;
+    margin: 50px 0 80px 30%;
+}
+#next span{
+    text-decoration: underline;
+}
+@font-face {
+    font-family: bromello;
+    src: url(bromello.otf);
+}
+
+/*___________________________Posts___________________*/
+
+.posts{
+    float: left;
+    box-sizing: border-box;
+    margin-top: 80px;
+    position: relative;
+}
+.posts ul li{
+     box-sizing: border-box;
+     position: relative;
+}
+.title{
+     text-transform: uppercase;
+     font-weight: bold;
+     text-align: center;
+}
+#recentPosts{
+    width: 75vw;
+    padding: 0 4%;
+}
+.recentTitle{
+    width: 40%;
+    height: 800px;
+    border: solid 5px rgb(219,150,143);
+    margin: 10px auto;
+    padding: 40px;
+    font-size: 20pt;
+}
+#recentPosts ul li{
+    height: 900px;
+}
+#recentPosts ul li p{
+    position: absolute;
+    left:0;
+    top: 700px;
+    right:0;
+    margin:auto;
+    width: 40%;
+    font-weight: bold;
+}
+#recentPosts ul li p span{
+    text-decoration: underline;
+    margin: 20px 0;
+    display: block;
+}
+#recentPosts ul li img{
+    width: 70%;
+    height: 50%;
+    position: absolute;
+    top: 150px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
+}
+#otherPosts{
+    width: 20vw;
+}
+h3{
+    font-family: bromello;
+    color: rgb(219,150,143);
+    font-size: 45pt;
+    margin-bottom: 30px;
+}
+#otherPosts ul li{
+    display: inline-block;
+    width: 46%;
+    height: 8vw;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+#otherPosts ul li:nth-child(1) {
+    background-image: url(img/1.jpg);
+}
+#otherPosts ul li:nth-child(2) {
+    background-image: url(img/2.jpg);
+}
+#otherPosts ul li:nth-child(3) {
+    background-image: url(img/3.jpg);
+}
+#otherPosts ul li:nth-child(4) {
+    background-image: url(img/4.jpg);
+}
+#otherPosts ul li:nth-child(5) {
+    background-image: url(img/5.jpg);
+}
+#otherPosts ul li:nth-child(6) {
+    background-image: url(img/6.jpg);
+}
+#otherPosts ul li:nth-child(7) {
+    background-image: url(img/7.jpg);
+}
+#otherPosts ul li:nth-child(8) {
+    background-image: url(img/8.jpg);
+}
+#otherPosts ul li:nth-child(9) {
+    background-image: url(img/9.jpg);
+}
+#otherPosts ul li:nth-child(10) {
+    background-image: url(img/10.jpg);
+}
+#otherPosts p{
+    border: solid 4px rgb(219,150,143);
+    margin-top: 10px;
+    text-transform: uppercase;
+    color: rgb(219,150,143);
+    font-weight: bold;
+    width: 30%;
+    padding: 2px;
+}
+.otherTitle {
+  width: 75%;
+  height: 75%;
+  position: absolute;
+  color: white;
+  border: 5px solid white;
+  padding-top: 35%;    
+  box-sizing: border-box;
+}
+.title:hover{
+    background-color: rgb(219,150,143);
+}
